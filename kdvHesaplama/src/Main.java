@@ -9,7 +9,7 @@ public class Main {
 	 */
 
         //değişkenleri tanımlama
-        double tutar, kdvOrani18 = 0.18, kdvOrani8 = 0.08, kdvTutar18, kdvTutar8, kdvliTutar18, kdvliTutar8; ;
+        double tutar, kdvOrani18 = 0.18, kdvOrani8 = 0.08, kdvTutar18, kdvTutar8, kdvliTutar18, kdvliTutar8;
 
         //Scanner sınıfını tanımlama
         Scanner input = new Scanner(System.in);
@@ -25,9 +25,6 @@ public class Main {
         kdvliTutar18 = tutar + kdvTutar18;
         kdvliTutar8 = tutar + kdvTutar8;
 
-        String sonuc = (tutar >=0 && tutar <= 1000) ?"KDV ORANI: " + kdvOrani18 + "\n" +"KDV'Lİ TUTAR: "+ kdvliTutar18 :
-                "KDV ORANI: " + kdvOrani8 +  "\n" + "KDV'Lİ TUTAR : " + kdvliTutar8;
-        System.out.println("KDV'SİZ TUTAR : " + tutar);
-        System.out.println(sonuc);
+        gi
     }
 }
