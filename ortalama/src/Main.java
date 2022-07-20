@@ -31,5 +31,14 @@ public class Main {
 
         System.out.print("Müzik Notunuz: ");
         muzik = inp.nextInt();
+
+        //Hesaplama
+        int toplam = mat + fizik + kimya + turkce + tarih + muzik;
+        double sonuc = toplam / 6;
+
+        System.out.println("Ortalamanız: " + sonuc);
+
+        String durum = (sonuc >= 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı" ;
+        System.out.println(durum);
     }
 }
