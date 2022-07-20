@@ -9,7 +9,7 @@ public class Main {
 	 */
 
         //değişkenleri tanımlama
-        double tutar, kdvOrani1 = 0.18, kdvOrani2 = 0.08, kdvTutar1, kdvTutar2, kdvliTutar1, kdvliTutar2; ;
+        double tutar, kdvOrani18 = 0.18, kdvOrani8 = 0.08, kdvTutar18, kdvTutar8, kdvliTutar18, kdvliTutar8; ;
 
         //Scanner sınıfını tanımlama
         Scanner input = new Scanner(System.in);
@@ -17,5 +17,12 @@ public class Main {
         //Kullanıcıdan değerleri alma
         System.out.print("Ücret Tutarını Giriniz: ");
         tutar = input.nextDouble();
+
+        //kdv tutarı ve kdvli tutarı hesaplama
+        kdvTutar18 = tutar * kdvOrani18;
+        kdvTutar8 = tutar * kdvOrani8;
+
+        kdvliTutar18 = tutar + kdvTutar18;
+        kdvliTutar8 = tutar + kdvTutar8;
     }
 }
