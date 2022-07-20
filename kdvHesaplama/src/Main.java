@@ -26,7 +26,7 @@ public class Main {
         kdvliTutar8 = tutar + kdvTutar8;
 
         String sonuc = (tutar >=0 && tutar <= 1000) ?"KDV ORANI: " + kdvOrani18 + "\n" +"KDV'Lİ TUTAR: "+ kdvliTutar18 :
-                "KDV ORANI: " + kdvOrani8 +  "\n" + "KDV Lİ TUTAR : " + kdvliTutar8;
+                "KDV ORANI: " + kdvOrani8 +  "\n" + "KDV'Lİ TUTAR : " + kdvliTutar8;
         System.out.println("KDV'SİZ TUTAR : " + tutar);
         System.out.println(sonuc);
     }
