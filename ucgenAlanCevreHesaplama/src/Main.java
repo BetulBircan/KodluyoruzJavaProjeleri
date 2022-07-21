@@ -28,6 +28,16 @@ public class Main {
         System.out.print("3.Kenarı Giriniz: ");
         c = input.nextInt();
 
+        //Çevre Hesaplama
+        u = (a + b + c) / 2;
+        cevre = 2*u;
+
+        //Alan Hesaplama
+        alan = u * (u-a) * (u-b) * (u-c);
+
+        System.out.println("Üçgein Çevresi: " + cevre);
+        System.out.println("Üçgenin Alanı: " + alan);
+
 
     }
 }
