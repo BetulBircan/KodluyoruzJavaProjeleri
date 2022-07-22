@@ -33,5 +33,16 @@ public class Main {
         muzKilo = scanner.nextDouble();
         System.out.print("Patlıcan Kaç Kilo ? : ");
         patlicanKilo = scanner.nextDouble();
+
+        //Toplam tutarı hesaplama
+        armut *= armutKilo;
+        elma *= elmaKilo;
+        domates *= domatesKilo;
+        muz *= muzKilo;
+        patlican *= patlicanKilo;
+
+        total = armut + elma + domates + muz + patlican;
+
+        System.out.println("Toplam Tutar : " + total + " TL" );
     }
 }
