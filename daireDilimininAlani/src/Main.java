@@ -24,6 +24,10 @@ public class Main {
         System.out.print("Merkez Açı Ölçüsünü Giriniz: ");
         merkezAci = scan.nextInt();
 
+        //Daire Diliminin Alannını Hesaplama
+        daireDilimAlani = (pi * (r* r) * merkezAci) / 360;
+        System.out.println("Daire Diliminin Alanı : " + daireDilimAlani);
+
 
     }
 }
