@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -17,5 +19,19 @@ public class Main {
         //Değişkenleri Tanımlama
         double armutKilo, elmaKilo, domatesKilo, muzKilo, patlicanKilo,
                 armut = 2.14, elma = 3.67, domates = 1.11, muz = 0.95, patlican = 5.00,  total;
+
+        //Kullanıcıdan Bilgileri Alma
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Armut Kaç Kilo ? : ");
+        armutKilo = scanner.nextDouble();
+        System.out.print("Elma Kaç Kilo ? : ");
+        elmaKilo = scanner.nextDouble();
+        System.out.print("Domates Kaç Kilo ? : ");
+        domatesKilo = scanner.nextDouble();
+        System.out.print("Muz Kaç Kilo ? : ");
+        muzKilo = scanner.nextDouble();
+        System.out.print("Patlıcan Kaç Kilo ? : ");
+        patlicanKilo = scanner.nextDouble();
     }
 }
