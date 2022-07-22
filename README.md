@@ -4,3 +4,4 @@
  - [KDV Hesaplama](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/kdvHesaplama)
  - [Üçgenin Alan ve Çevresini Hesaplama](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/ucgenAlanCevreHesaplama)
  - [Daire Diliminin Alanını Hesaplama](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/daireDilimininAlani)
+ - [Vücut Kitle İndexi Hesaplama](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/vucutKitleIndexi)
