@@ -25,5 +25,9 @@ public class Main {
         System.out.print("Lütfen Kilonuzu Giriniz : ");
         weight = input.nextDouble();
 
+        //Vücut Kitle İndexi Hesaplama
+        bodyMassIndex = weight / (height * height);
+        System.out.println("Vücut Kitle İndexiniz : " + bodyMassIndex);
+
     }
 }
