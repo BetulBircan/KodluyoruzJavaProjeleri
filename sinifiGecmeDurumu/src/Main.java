@@ -26,5 +26,16 @@ public class Main {
         kimya = input.nextInt();
         System.out.print("Müzik notunuz: ");
         muzik = input.nextInt();
+
+        //sınıfı geçme veya kalma durumunun belirlenmesi
+        avarage = (mat + fizik + turkce + kimya + muzik) / 5;
+
+        if(avarage <= 55) {
+            System.out.println("Sınıfta Kaldınız, Seneye Tekrar Görüşmek Üzere!!!");
+        }
+        else {
+            System.out.println("Tebrikler. Sınıfı Geçtiniz!!!");
+        }
+        System.out.println("Ortalamanız: " + avarage);
     }
 }
