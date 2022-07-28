@@ -27,15 +27,22 @@ public class Main {
         System.out.print("Müzik notunuz: ");
         muzik = input.nextInt();
 
-        //sınıfı geçme veya kalma durumunun belirlenmesi
-        avarage = (mat + fizik + turkce + kimya + muzik) / 5;
+        //Eğer girilen ders notları 0 veya 100 arasında değil ise ortalamaya katılmamasının belirlenmesi
+        if((mat >=0 && mat <=100) && (fizik >=0 && fizik <=100) && (turkce >=0 && turkce <=100) &&
+                (kimya >=0 && kimya <=100) && (muzik >=0 && muzik <=100) ) {
 
-        if(avarage <= 55) {
-            System.out.println("Sınıfta Kaldınız, Seneye Tekrar Görüşmek Üzere!!!");
+            //sınıfı geçme veya kalma durumunun belirlenmesi
+            avarage = (mat + fizik + turkce + kimya + muzik) / 5;
+
+            if (avarage <= 55) {
+                System.out.println("Sınıfta Kaldınız, Seneye Tekrar Görüşmek Üzere!!!");
+            } else {
+                System.out.println("Tebrikler. Sınıfı Geçtiniz!!!");
+            }
+            System.out.println("Ortalamanız: " + avarage);
         }
         else {
-            System.out.println("Tebrikler. Sınıfı Geçtiniz!!!");
+            System.out.println("Ortalama Hesaplamasına Katılamaz");
         }
-        System.out.println("Ortalamanız: " + avarage);
     }
 }
