@@ -19,5 +19,14 @@ public class Main {
         System.out.print("Şifreniz: ");
         password = input.nextLine();
 
+        //Eğer şifre dopruysa başarılı değilse hatalı giriş yaptınız işlemlerini yapma
+        if(userName.equals("patika") && password.equals("java123")) {
+            System.out.println("Giriş Başarılı...");
+        }
+        else {
+            System.out.println("Hatalı Giriş!");
+        }
+
+
     }
 }
