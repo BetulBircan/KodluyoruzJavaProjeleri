@@ -25,6 +25,21 @@ public class Main {
         }
         else {
             System.out.println("Hatalı Giriş!");
+            /*ğer kullanıcı sıfırlamak isterse yeni girdiği şifrenin hatalı girdiği ve unuttuğu şifre ile aynı olmaması
+             gerektiğini kontrol edip , şifreler aynı ise ekrana "Şifre oluşturulamadı, lütfen başka şifre giriniz."
+             sorun yoksa "Şifre oluşturuldu" yazan program
+            / */
+            System.out.println("Şifreyi Sıfırlamak ister misiniz?\nyes\nno");
+            nullification = input.nextLine();
+            if(nullification.equals("yes")) {
+                newPassword = input.nextLine();
+                if(newPassword.equals("java123") || newPassword.equals(password) ) {
+                    System.out.println("Şifre oluşturulamadı, lütfen başka şifre giriniz. ");
+                }
+                else {
+                    System.out.println("Şifre Oluşturuldu.");
+                }
+            }
         }
 
 
