@@ -1,4 +1,4 @@
-﻿# KodluyoruzJavaHomeworks
+ # KodluyoruzJavaHomeworks
  ## Kodluyoruz Java Patikasındaki pratikler ve ödevler bu repoda bulunmaktadır.
  - [Ortalama Bulma](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/ortalama)
  - [KDV Hesaplama](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/kdvHesaplama)
@@ -7,3 +7,5 @@
  - [Vücut Kitle İndexi Hesaplama](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/vucutKitleIndexi)
  - [Manav Kasa Programı](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/manavKasa)
  - [Hesap Makinesi](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/hesapMakinesi)
+ - [Kullanıcı Girişi](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/kullaniciGirisi)
+ - [Sınıfı Geçme Durumu Hesaplaması](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/sinifiGecmeDurumu)
