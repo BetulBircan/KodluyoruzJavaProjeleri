@@ -1,4 +1,4 @@
- # KodluyoruzJavaHomeworks
+ # KodluyoruzJavaProjeleri
  ## Kodluyoruz Java Patikasındaki pratikler ve verilen projeler bu repoda bulunmaktadır.
  - [Ortalama Bulma](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/ortalama)
  - [KDV Hesaplama](https://github.com/BetulBircan/KodluyoruzJavaHomeworks/tree/main/kdvHesaplama)
